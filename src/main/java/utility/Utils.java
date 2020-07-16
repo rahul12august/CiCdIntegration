@@ -14,7 +14,8 @@ public class Utils {
 		System.setProperty("webdriver.chrome.driver", 
 				System.getProperty("user.dir")+File.separator+"chromedriver");
 		driver= new ChromeDriver();
-		driver.get("file:///Users/rahultiwari/Downloads/dropdown.html");
+		//driver.get("file:///Users/rahultiwari/Downloads/dropdown.html");
+		driver.get("https://test.techlift.in/");
 		driver.manage().window().maximize();
 		implicitWait();
 		return driver;
@@ -39,6 +40,22 @@ public class Utils {
 	}
 	public static void click(WebElement element) {
 		element.click();
+	}
+	public static void enterText(WebElement element,String text) {
+		System.out.println("Trying to enter text on " +element+ "Text to be entered is: " +text);
+		element.sendKeys(text);
+	}
+	
+	public static boolean verifyElementDisplayed(WebElement element) {
+		boolean presence=false;
+		if(element.isDisplayed()) {
+			presence=true;
+		}
+		return presence;
+	}
+	public static void closeSessions() {
+		driver.quit();
+		
 	}
 
 }

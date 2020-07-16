@@ -27,4 +27,12 @@ public class HomePageActions {
 			throw e;
 		}
 	}
+	
+	public static void clickOnLogin() {
+		try {
+			Utils.click(HomePage.lnkLogin());
+		}catch(Exception e) {
+			throw e;
+		}
+	}
 }

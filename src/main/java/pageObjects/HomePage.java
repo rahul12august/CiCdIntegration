@@ -39,4 +39,14 @@ public static WebElement rdBtnJapan() {
 	return element;
 }
 
+public static WebElement lnkLogin() {
+	try {
+		element=driver.findElement(By.xpath("//a[text()='Login']"));
+	}catch(Exception e) {
+		throw e;
+	}
+	return element;
+}
+
+
 }

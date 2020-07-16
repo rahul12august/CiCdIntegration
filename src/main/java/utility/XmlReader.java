@@ -1,4 +1,4 @@
-package testNgPackage;
+package utility;
 
 import java.io.File;
 import javax.xml.parsers.DocumentBuilder;
