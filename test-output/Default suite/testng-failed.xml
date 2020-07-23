@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.VerifyUserIsAbleToAddItem">
+      <class name="testCases.TestCustomizeWebPage">
         <methods>
-          <include name="createAnItemSuccessfully"/>
+          <include name="startTest"/>
+          <include name="verifyUserIsAbleToSelctRadioCheckBoxAndDropDownValue"/>
+          <include name="endTest"/>
         </methods>
-      </class> <!-- testCases.VerifyUserIsAbleToAddItem -->
+      </class> <!-- testCases.TestCustomizeWebPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

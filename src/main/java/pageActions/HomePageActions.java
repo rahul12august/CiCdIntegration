@@ -1,13 +1,16 @@
 package pageActions;
 
 import pageObjects.HomePage;
+import utility.Report;
 import utility.Utils;
 
-public class HomePageActions {
+public class HomePageActions extends Report{
+	static Report report=new Report();
 	public static void selectUsingVisibleText(String methodName,String visibleText) {
 		try {
 			Utils.selectFromDropDown(HomePage.ddlRandom(), methodName, visibleText);
 		} catch (Exception e) {
+			
 			e.printStackTrace();
 		}
 	}

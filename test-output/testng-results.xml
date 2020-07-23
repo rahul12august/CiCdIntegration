@@ -1,17 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8015" started-at="2020-07-15T23:03:44 IST" finished-at="2020-07-15T23:03:52 IST">
+  <suite name="Default suite" duration-ms="5549" started-at="2020-07-21T22:38:45 IST" finished-at="2020-07-21T22:38:50 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8015" started-at="2020-07-15T23:03:44 IST" finished-at="2020-07-15T23:03:52 IST">
-      <class name="testCases.VerifyUserIsAbleToAddItem">
-        <test-method status="PASS" signature="createAnItemSuccessfully()[pri:0, instance:testCases.VerifyUserIsAbleToAddItem@6321e813]" name="createAnItemSuccessfully" duration-ms="7977" started-at="2020-07-15T23:03:44 IST" finished-at="2020-07-15T23:03:52 IST">
+    <test name="Default test" duration-ms="5549" started-at="2020-07-21T22:38:45 IST" finished-at="2020-07-21T22:38:50 IST">
+      <class name="testCases.TestCustomizeWebPage">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:testCases.TestCustomizeWebPage@1e6d1014]" name="startTest" is-config="true" duration-ms="289" started-at="2020-07-21T22:38:45 IST" finished-at="2020-07-21T22:38:45 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createAnItemSuccessfully -->
-      </class> <!-- testCases.VerifyUserIsAbleToAddItem -->
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="verifyUserIsAbleToFemaleCheckBox()[pri:0, instance:testCases.TestCustomizeWebPage@1e6d1014]" name="verifyUserIsAbleToFemaleCheckBox" duration-ms="1899" started-at="2020-07-21T22:38:45 IST" finished-at="2020-07-21T22:38:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsAbleToFemaleCheckBox -->
+        <test-method status="PASS" signature="quitSession()[pri:0, instance:testCases.TestCustomizeWebPage@1e6d1014]" name="quitSession" is-config="true" duration-ms="86" started-at="2020-07-21T22:38:47 IST" finished-at="2020-07-21T22:38:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitSession -->
+        <test-method status="PASS" signature="verifyUserIsAbleToSelectJapan()[pri:0, instance:testCases.TestCustomizeWebPage@1e6d1014]" name="verifyUserIsAbleToSelectJapan" duration-ms="1427" started-at="2020-07-21T22:38:47 IST" finished-at="2020-07-21T22:38:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsAbleToSelectJapan -->
+        <test-method status="PASS" signature="quitSession()[pri:0, instance:testCases.TestCustomizeWebPage@1e6d1014]" name="quitSession" is-config="true" duration-ms="83" started-at="2020-07-21T22:38:49 IST" finished-at="2020-07-21T22:38:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitSession -->
+        <test-method status="PASS" signature="verifyUserIsAbleToSelectSeleniumFromDropDown()[pri:0, instance:testCases.TestCustomizeWebPage@1e6d1014]" name="verifyUserIsAbleToSelectSeleniumFromDropDown" duration-ms="1407" started-at="2020-07-21T22:38:49 IST" finished-at="2020-07-21T22:38:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsAbleToSelectSeleniumFromDropDown -->
+        <test-method status="PASS" signature="quitSession()[pri:0, instance:testCases.TestCustomizeWebPage@1e6d1014]" name="quitSession" is-config="true" duration-ms="83" started-at="2020-07-21T22:38:50 IST" finished-at="2020-07-21T22:38:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitSession -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testCases.TestCustomizeWebPage@1e6d1014]" name="endTest" is-config="true" duration-ms="238" started-at="2020-07-21T22:38:50 IST" finished-at="2020-07-21T22:38:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- testCases.TestCustomizeWebPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

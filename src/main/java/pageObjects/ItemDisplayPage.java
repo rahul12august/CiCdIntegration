@@ -58,5 +58,54 @@ public class ItemDisplayPage  extends BaseClass{
 		}
 		return element;
 	}
+	
+	public static WebElement txtBxItemCode() {
+		try {
+			element=driver.findElement(By.
+					xpath("(//input[@data-fieldname='item_code'])"));
+		}catch(Exception e) {
+			throw e;
+		}
+		return element;
+	}
+	
+	public static WebElement txtBxItemgroup() {
+		try {
+			element=driver.findElement(By.
+					xpath("(//input[@data-fieldname='item_group'])[2]"));
+		}catch(Exception e) {
+			throw e;
+		}
+		return element;
+	}
+			
+	public static WebElement lnkFisrtItemNameDisplayed() {
+		try {
+			element=driver.findElement(By.
+					xpath("(//div[@class='list-row-container']//a)[1]"));
+		}catch(Exception e) {
+			throw e;
+		}
+		return element;
+	}
+			public static WebElement ddlItemGroupList() {
+				try {
+					element=driver.findElement(By.
+							xpath("(//strong[text()='All Item Groups'])"));
+				}catch(Exception e) {
+					throw e;
+				}
+				return element;
+			}
+	//				
+		public static WebElement txtBxItemName() {
+						try {
+							element=driver.findElement(By.
+									xpath("(//input[@data-fieldname='item_name'])[2]"));
+						}catch(Exception e) {
+							throw e;
+						}
+						return element;
+			}
 
 }

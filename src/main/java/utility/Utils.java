@@ -14,8 +14,8 @@ public class Utils {
 		System.setProperty("webdriver.chrome.driver", 
 				System.getProperty("user.dir")+File.separator+"chromedriver");
 		driver= new ChromeDriver();
-		//driver.get("file:///Users/rahultiwari/Downloads/dropdown.html");
-		driver.get("https://test.techlift.in/");
+		driver.get("file:///Users/rahultiwari/Downloads/dropdown.html");
+		//driver.get("https://test.techlift.in/");
 		driver.manage().window().maximize();
 		implicitWait();
 		return driver;
@@ -55,6 +55,10 @@ public class Utils {
 	}
 	public static void closeSessions() {
 		driver.quit();
+		
+	}
+	public static void refresh() {
+		driver.navigate().refresh();
 		
 	}
 
